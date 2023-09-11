@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+
+    <data>
+        <!-- <record id="action_telemarketing" model="ir.actions.act_window">
+            <field name="name">Telemarketing</field>
+            <field name="res_model">dym.telemarketing</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record> -->
+
+        <menuitem id="dym_telemarketing_top_menu" name="Telemarketing" sequence="30"></menuitem>
+        <menuitem id="dym_telemarketing_sub_menu" name="Telemarketing" parent="dym_telemarketing_top_menu" sequence="10" action="action_telemarketing" />
+
+    </data>
+    
+
+</openerp>
